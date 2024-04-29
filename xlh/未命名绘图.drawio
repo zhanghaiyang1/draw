@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T08:04:43.721Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="fLszysk31PR2Jru99LBb" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T08:08:09.800Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="EEmcyx3MhmVpogzgeOYn" version="24.3.1" type="github">
   <diagram name="第 1 页" id="pve0NRQpCfyvnFZcZqz9">
-    <mxGraphModel dx="1087" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="847" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="o8nqJPVt-zvEMNnkmq4Q-1" value="服务商" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="o8nqJPVt-zvEMNnkmq4Q-1" value="服务商" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o8nqJPVt-zvEMNnkmq4Q-2" value="User&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="150" y="100" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o8nqJPVt-zvEMNnkmq4Q-5" value="抖音" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="o8nqJPVt-zvEMNnkmq4Q-5" value="抖音" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="o8nqJPVt-zvEMNnkmq4Q-9" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" parent="1" vertex="1">
@@ -95,7 +95,7 @@
             <mxPoint x="35" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nJhTN-xELW21ojM_PChQ-25" value="中石油" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nJhTN-xELW21ojM_PChQ-25" value="中石油" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nJhTN-xELW21ojM_PChQ-26" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
