@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T08:44:04.054Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="qtlGWLmr39_pUUnqqCuB" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T09:00:30.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="LSydCfQG-pUajMq3_fM3" version="24.3.1" type="github">
   <diagram name="第 1 页" id="pve0NRQpCfyvnFZcZqz9">
-    <mxGraphModel dx="1632" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2176" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,7 +202,7 @@
             <mxPoint x="810" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="g20JxxqgTZNWnrFlKe98-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;逻辑&lt;/h1&gt;&lt;div&gt;验券接口：&lt;/div&gt;&lt;div&gt;1，对code进行setnx,30s内只能操作一次&lt;/div&gt;&lt;div&gt;2，code-&amp;gt;orderId 存入redis 30s&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;派券接口：&lt;/div&gt;&lt;div&gt;1，根据code参数获取orderId&lt;/div&gt;&lt;div&gt;2，根据code参数获取时间，如果存在表示已发券&lt;/div&gt;&lt;div&gt;3，派券成功，zadd(code,t.unix)&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="g20JxxqgTZNWnrFlKe98-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;逻辑&lt;/h1&gt;&lt;div&gt;验券接口：&lt;/div&gt;&lt;div&gt;1，&lt;span style=&quot;background-color: initial;&quot;&gt;code-&amp;gt;orderId 存入redis 30s&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;派券接口：&lt;/div&gt;&lt;div&gt;1，根据code参数获取orderId&lt;/div&gt;&lt;div&gt;2，&lt;span style=&quot;background-color: initial;&quot;&gt;对code进行setnx,30s内只能操作一次&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3，根据code参数获取时间，如果存在表示已发券&lt;/div&gt;&lt;div&gt;4，派券成功，zadd(code,t.unix)&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="779" width="580" height="390" as="geometry" />
         </mxCell>
       </root>
